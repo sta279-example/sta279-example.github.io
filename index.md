@@ -7,10 +7,7 @@ seo:
   name: STA 279 Example
 ---
 
-# {{ site.tagline }}
-{: .mb-2 }
-{{ site.description }}
-{: .fs-6 .fw-300 }
+# Teaching Demonstration: STA 279 Statistical Computing
 
 ## Context and background
 

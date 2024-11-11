@@ -23,8 +23,6 @@ Other helpful resources for R, statistics, and data science:
 
 * [OpenIntro](https://www.openintro.org/book/os/)
 
-* [Visual and Statistical Thinking](https://www.edwardtufte.com/tufte/books_textb)
-
-* [swirl package](https://swirlstats.com/)
+* [Visual and Statistical Thinking](https://www.edwardtufte.com/book/visual-and-statistical-thinking-displays-of-evidence-for-making-decisions/)
 
 * [StackOverflow](https://stackoverflow.com/) 
