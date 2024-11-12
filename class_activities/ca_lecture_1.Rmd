@@ -1,5 +1,5 @@
 ---
-title: "Class Activity, January 17"
+title: "Class Activity 1"
 output: 
   tufte::tufte_html:
     css: "lab.css"
@@ -8,7 +8,7 @@ output:
 link-citations: yes
 ---
 
-**Instruction:** Work with a neighbor to answer the following questions. Solutions will be posted on the course website. To get started, download the [class activity template](https://sta279-s24.github.io/class_activities/ca_lecture_1_template.qmd) file.
+**Instruction:** Work with a neighbor to answer the following questions. Solutions will be posted on the course website. To get started, download the [class activity template](https://sta279-example.github.io/class_activities/ca_lecture_1_template.qmd) file.
 
 ## The birthday problem
 
@@ -27,3 +27,11 @@ Suppose we have a class of 30 students. What is the probability that there is at
 4. Use a `for` loop to repeat the experiment $n_{sim} = 10000$ times, making sure to store the results. What is the probability of at least one shared birthday?
 
 5. Repeat the simulation with different class sizes. How many students do we need for the probability of a shared birthday to be approximately 50%?
+
+
+<br />
+
+<br />
+
+<font size="2"> The R Markdown formatting for this activity was adapted from a template provided by Dr. Lucy D'Agostino-McGowan</font> 
+

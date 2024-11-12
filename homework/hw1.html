@@ -1645,7 +1645,15 @@ margin-left: 0 !important;
           <li class="divider"></li>
         </ul>
         <nav role="navigation" id="toc">
-          
+          <ul>
+          <li><a href="#practice-with-for-loops" id="toc-practice-with-for-loops">Practice with
+          <code>for</code> loops</a></li>
+          <li><a href="#probability-simulation" id="toc-probability-simulation">Probability
+          simulation</a></li>
+          <li><a href="#designing-simulation-studies" id="toc-designing-simulation-studies">Designing simulation
+          studies</a></li>
+          <li><a href="#de-bugging-practice" id="toc-de-bugging-practice">De-bugging practice</a></li>
+          </ul>
         </nav>
         <ul class="authors">
           <li class="divider"></li>
@@ -1669,10 +1677,10 @@ margin-left: 0 !important;
       
    
 <!-- Don't indent these lines or it will mess pre blocks indentation --> 
-<p><strong>Due:</strong> Friday, January 26, 2:00pm on Canvas</p>
+<p><strong>Due:</strong> In 1 week</p>
 <p><strong>Instructions:</strong></p>
 <ul>
-<li>Download the <a href="https://sta279-s24.github.io/homework/hw_1_template.qmd">HW 1
+<li>Download the <a href="https://sta279-example.github.io/homework/hw_1_template.qmd">HW 1
 template</a>, and open the template (a Quarto document) in RStudio.</li>
 <li>Put your name in the file header</li>
 <li>Click <code>Render</code></li>
@@ -1706,8 +1714,8 @@ B</a> (overview of R) in <em>Modern Data Science with R</em></li>
 <li><a href="https://adv-r.hadley.nz/control-flow.html">Chapter 5</a>
 (loops and choices) in <em>Advanced R</em></li>
 </ul>
-<div id="practice-with-for-loops" class="section level3">
-<h3>Practice with <code>for</code> loops</h3>
+<div id="practice-with-for-loops" class="section level2">
+<h2>Practice with <code>for</code> loops</h2>
 <p>The purpose of this section is to give you some more practice working
 with for loops and sequences, which are useful tools for efficiently
 repeating a process many times. Here is an example for loop that
@@ -1748,7 +1756,6 @@ applied to each element of the vector. For example,</p>
 <p>Re-write the code for Question 1, using vectorization instead of the
 <code>for</code> loop.</p>
 </div>
-</div>
 <div id="more-practice-with-for-loops" class="section level3">
 <h3>More practice with <code>for</code> loops</h3>
 <p>Suppose we want to simulate a single draw from a normal distribution
@@ -1774,8 +1781,9 @@ change the inputs to the <code>rnorm</code> function so that you take a
 sample of 1000 <em>without</em> using a loop?</p>
 </div>
 </div>
-<div id="probability-simulation" class="section level3">
-<h3>Probability simulation</h3>
+</div>
+<div id="probability-simulation" class="section level2">
+<h2>Probability simulation</h2>
 <p>Consider a tug-of-war competition for robots. In each match up, two
 robots take turns tugging the rope until the marker indicates that one
 of the robots won. The match starts with the marker at 0.</p>
@@ -1806,8 +1814,8 @@ game fair? If not, what adjustments can be made to make it more
 fair?</p>
 </div>
 </div>
-<div id="designing-simulation-studies" class="section level3">
-<h3>Designing simulation studies</h3>
+<div id="designing-simulation-studies" class="section level2">
+<h2>Designing simulation studies</h2>
 <p>Simulation is a widely-used tool in statistics to address a broad
 range of statistical questions. A simulation study allows us investigate
 these questions by simulating data under a variety of different
@@ -1831,8 +1839,8 @@ ADEMP) involved in planning a simulation study? Summarize each of the
 five components.</p>
 </div>
 </div>
-<div id="de-bugging-practice" class="section level3">
-<h3>De-bugging practice</h3>
+<div id="de-bugging-practice" class="section level2">
+<h2>De-bugging practice</h2>
 <p>Sometimes (often!) when we write code, it doesn’t quite work the way
 we expect – at least initially. Usually, this means we have made a
 mistake in our code, and we need to figure out where that mistake is.
@@ -1863,6 +1871,11 @@ to appear?</p>
 reasonable to compare <code>x</code> and <code>y</code>
 (<code>x == y</code>), even if you don’t get a warning?</p>
 </div>
+<p><br /></p>
+<p><br /></p>
+<p><font size="2"> The R Markdown formatting for this assignment was
+adapted from a template provided by Dr. Lucy
+D’Agostino-McGowan</font></p>
 </div>
 
    

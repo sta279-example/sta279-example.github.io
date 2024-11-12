@@ -1,7 +1,7 @@
 ---
 ---
 ---
-title: "Class activity, January 17"
+title: "Class activity 1"
 format: html
 editor: visual
 author: "Your name"

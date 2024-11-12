@@ -1,5 +1,5 @@
 ---
-title: "Class activity solutions, January 17"
+title: "Class activity 1 solutions"
 format: html
 editor: visual
 author: Ciaran Evans
