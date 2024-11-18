@@ -32,15 +32,13 @@ knitr::opts_chunk$set(echo = TRUE)
     * Planning simulations
     * Vectors in R
     * Iteration
-    * Setting seeds
-    * Some good coding practices
     
 \vspace{0.15cm}
 
 * Student participation:
     * Short neighbor/group discussions
     * Dialogue and questions throughout
-    * Your turn: class activity at the end of the lesson
+    * Your turn: activity at the end of the lesson
     
 ## Warm-up question
 
@@ -231,63 +229,6 @@ for(i in 1:nsim){
 mean(results)
 ```
 
--   What if I wanted to repeat the simulation, with a different number of people?
-
-## Removing magic numbers
-
-```{r, echo=T}
-nsim <- 10000 # number of simulations
-M <- 10 # number of people
-hats <- 1:M
-results <- rep(NA, nsim) # vector to store results
-
-for(i in 1:nsim){
-  randomized_hats <- sample(hats, size = M, 
-                            replace = FALSE)
-  results[i] <- sum(hats == randomized_hats) > 0
-}
-
-mean(results)
-```
-
--   Why did I get different results?
-
-## Final code
-
-```{r, echo=T, eval=F}
-set.seed(3) # set a seed for reproducibility
-
-M <- 10 # number of people at the party
-hats <- 1:M # numbered hats
-nsim <- 10000 # number of simulations
-results <- rep(NA, nsim) # vector to store the results
-
-for(i in 1:nsim){
-  # hats are randomly assigned to each person
-  randomized_hats <- sample(hats, M, replace = F)
-  
-  # did at least one person get their hat back?
-  results[i] <- sum(randomized_hats == hats) > 0
-}
-
-mean(results)
-```
-
-## Summary of coding practices
-
--   avoid magic numbers
-
-\vspace{0.2cm}
-
--   set a seed for reproducibility
-
-\vspace{0.2cm}
-
--   use meaningful names
-
-\vspace{0.2cm}
-
--   add comments
 
 ## Class activity
 
@@ -295,11 +236,12 @@ For the remainder of class, work with a neighbor on the class activity (link bel
 
 [https://sta279-example.github.io/class_activities/ca_lecture_1.html](https://sta279-example.github.io/class_activities/ca_lecture_1.html)
 
-## What is the exact probability?
 
 ## What comes next?
 
 * Continuing probability simulations (gambler's ruin, airplane seating, Monty Hall problem, etc.)
+    * setting seeds
+    * good coding practices
     * `for` and `while` loops
     * nested loops
     * `if...else if...else` statements
@@ -312,4 +254,4 @@ For the remainder of class, work with a neighbor on the class activity (link bel
     * introduction to writing functions
 
 
-
+## What is the exact probability?
