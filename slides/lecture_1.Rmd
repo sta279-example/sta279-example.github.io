@@ -40,13 +40,6 @@ knitr::opts_chunk$set(echo = TRUE)
     * Dialogue and questions throughout
     * Your turn: activity at the end of the lesson
     
-## Warm-up question
-
-**Problem:** 10 people are at a party, and all of them are wearing hats. They each place their hat in a pile; when they leave, they choose a hat at random. What is the probability at least one person selected the correct hat?
-
-\vspace{0.5cm}
-
-**Question:** What are some big-picture strategies (not specific calculation details) you could use to try and find this probability?
 
 ## Warm-up question
 
